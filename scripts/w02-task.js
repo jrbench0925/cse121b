@@ -24,7 +24,8 @@ document.querySelector("img").setAttribute("alt", `Profile image of ${fullName}`
 /* Step 5 - Array */
 let favFoods = ["Ribs", "Tacos", "BBQ", "Hamburgers", "Steak", "Sushi", "Soup"];
 foodElement.textContent = favFoods;
-favFoods.push("Ice Cream");
+let newFood = "Ice Cream";
+favFoods.push(newFood);
 foodElement.innerHTML += `<br>${favFoods}`;
 favFoods.shift();
 foodElement.innerHTML += `<br>${favFoods}`;
