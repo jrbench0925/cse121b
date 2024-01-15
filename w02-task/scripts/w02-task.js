@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 const fullName = "Jeff Bench";
 const currentYear = new Date().getFullYear;
-const profilePicture = images / profile.jpg;
+const profilePicture = "images/profile.jpg";
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById("name");
