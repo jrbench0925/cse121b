@@ -43,7 +43,7 @@ function reset() {
 
 const filterTemples = (temples) => {
     reset();
-    const checkDate = new Date(1950, 0, 1);
+    const checkDate = new Date("1950-01");
     let filteredList;
     let filter = document.getElementById("filtered").value;
     switch (filter) {
