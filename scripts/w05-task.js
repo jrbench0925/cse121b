@@ -32,7 +32,7 @@ const getTemples = async (url) => {
 }
 
 /* reset Function */
-function reset(templesElement) {
+function reset() {
     const divChild = document.querySelector('#temples');
     while (divChild.firstChild) {
         divChild.removeChild(divChild.lastChild);
