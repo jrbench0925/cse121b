@@ -42,7 +42,7 @@ function reset() {
 /* filterTemples Function */
 
 const filterTemples = (temples) => {
-    reset(templesElement);
+    reset();
     const checkDate = new Date(1950, 9, 1);
     let filteredList;
     let filter = document.getElementById("filtered").value;
